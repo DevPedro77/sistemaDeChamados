@@ -25,7 +25,7 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
 ## 🛠️ Como Rodar o Projeto
 ### 1️⃣ Clone o Repositório
 bash
- git clone https://github.com/seu-usuario/sistema-de-chamados.git
+ git clone https://github.com/DevPedro77/sistemaDeChamados.git
  cd sistema-de-chamados
 
 
