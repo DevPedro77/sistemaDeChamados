@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+## 📄 Sobre o Projeto
+O **Sistema de Chamados** é uma plataforma projetada para gerenciar chamados internos de uma empresa. Ele facilita a abertura, acompanhamento e resolução de chamados, garantindo um fluxo organizado de atendimento.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎨 Design
+O design do sistema foi criado no **Figma** e pode ser acessado pelo seguinte link:
+[Chamados - Figma](https://www.figma.com/design/GeAkrbiGjhjXIkMFNTvTHR/Chamados?node-id=1-593)
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
+O projeto será desenvolvido utilizando as seguintes tecnologias:
+- **Front-end:** React.js + Tailwind CSS
+- **Back-end:** Node.js com Express
+- **Banco de Dados:** Firebase Firestore
+- **Autenticação:** Firebase Authentication
+- **Hospedagem:** Vercel (Front-end) e Firebase Functions (Back-end)
 
-In the project directory, you can run:
+## 📌 Funcionalidades
+- 📌 **Cadastro e Login de Usuários**
+- 🛠️ **Abertura de Chamados**
+- 🔍 **Consulta e Filtro de Chamados**
+- 📌 **Atualização de Status dos Chamados**
+- 📝 **Comentários e Anexos**
+- 📊 **Dashboard com Estatísticas**
+- 🔔 **Notificações em Tempo Real**
 
-### `npm start`
+## 🛠️ Como Rodar o Projeto
+### 1️⃣ Clone o Repositório
+bash
+ git clone https://github.com/seu-usuario/sistema-de-chamados.git
+ cd sistema-de-chamados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2️⃣ Instale as Dependências
+bash
+ npm install
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3️⃣ Configure as Variáveis de Ambiente
+Crie um arquivo .env na raiz do projeto e adicione as credenciais do Firebase:
+REACT_APP_FIREBASE_API_KEY=SEU_API_KEY
+REACT_APP_FIREBASE_AUTH_DOMAIN=SEU_AUTH_DOMAIN
+REACT_APP_FIREBASE_PROJECT_ID=SEU_PROJECT_ID
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4️⃣ Inicie o Servidor
+bash
+ npm run dev
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 Contribuição
+Contribuições são bem-vindas! Siga os passos:
+1. Fork o repositório
+2. Crie uma branch (feature/minha-feature)
+3. Commit suas mudanças (git commit -m 'Adiciona nova feature')
+4. Envie um Pull Request
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
