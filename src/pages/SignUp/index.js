@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../contexts/auth.app";
 
+
+
 export default function SignUp(){ 
   const [name, setName] =useState('')
   const [email, setEmail] = useState('');
