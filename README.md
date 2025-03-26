@@ -7,11 +7,10 @@ O design do sistema foi criado no **Figma** e pode ser acessado pelo seguinte li
 
 ## 🚀 Tecnologias Utilizadas
 O projeto será desenvolvido utilizando as seguintes tecnologias:
-- **Front-end:** React.js + Tailwind CSS
-- **Back-end:** Node.js com Express
-- **Banco de Dados:** Firebase Firestore
+- **Front-end:** React.js
+- **Banco de Dados:** Firebase Firestore e Supabase
 - **Autenticação:** Firebase Authentication
-- **Hospedagem:** Vercel (Front-end) e Firebase Functions (Back-end)
+- **Hospedagem:** Vercel (Front-end)
 
 ## 📌 Funcionalidades
 - 📌 **Cadastro e Login de Usuários**
