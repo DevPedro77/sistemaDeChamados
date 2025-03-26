@@ -35,7 +35,7 @@ export default function SignIn() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="*************"
+            placeholder="******"
           />
 
           <button type="submit">Acessar</button>
